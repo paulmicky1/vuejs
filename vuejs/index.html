@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue js</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <img v-bind:src="src" v-bind:alt="alt">
+        <hr>
+        <a v-bind:href="link">account</a>
+        <hr>
+        <a v-bind:href="link2">tweets</a>
+        <hr>
+        <a v-bind:href="link3">newsapi</a>
+        <hr>
+        <a v-bind:href="link4">everything</a>
+        <hr>
+        <p v-text="myText"></p>
+
+        <p v-html="myHtml"></p>
+     </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
